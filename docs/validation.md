@@ -14,7 +14,7 @@ Tests below reflect the observed Packet Tracer results during project validation
 | Lab PC to Office server `192.168.99.10` | No ICMP reply | 4 timeouts, consistent with the configured ping restriction. |
 | ISP router to Lab PC `192.168.20.51` | Blocked | `UUUUU`; Edge-Router `OUTSIDE_IN` deny counter increased. |
 
-[Image](./Network%20Configuration%20Validation%20Results.png)
+![Image](./Network%20Configuration%20Validation%20Results.png)
 
 ## Useful verification commands
 
