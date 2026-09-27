@@ -2,6 +2,8 @@
 
 ## Architecture
 
+[Image](./Architecture.png)
+
 The network uses a core-and-access design:
 
 1. `ISP-Router` represents an upstream provider and exposes a loopback address for simulated external testing.

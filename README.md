@@ -1,4 +1,4 @@
-# Secure-Campus-Network-Design-&-Network-Access-Control
+# Secure-Campus-Network-Design-and-Network-Access-Control
 
 A Cisco Packet Tracer project demonstrating a segmented campus network with a DMZ, inter-VLAN routing, edge NAT, and ACL-based access control.
 
