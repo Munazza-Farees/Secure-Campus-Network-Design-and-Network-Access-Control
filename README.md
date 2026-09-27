@@ -11,30 +11,9 @@ A Cisco Packet Tracer project demonstrating a segmented campus network with a DM
 - **Departments:** CSE, CSN, IT, MECH, and ECE.
 - **Office:** Main server in a separate VLAN.
 
-## Addressing
-
-| Segment | VLAN | Subnet | Default gateway |
-|---|---:|---|---|
-| Office / Main server | 100 | `192.168.99.0/24` | `192.168.99.1` |
-| CSE | 110 | `192.168.10.0/24` | `192.168.10.1` |
-| CSN | 120 | `192.168.20.0/24` | `192.168.20.1` |
-| IT | 130 | `192.168.30.0/24` | `192.168.30.1` |
-| MECH | 140 | `192.168.40.0/24` | `192.168.40.1` |
-| ECE | 150 | `192.168.50.0/24` | `192.168.50.1` |
-| DMZ | — | `172.16.10.0/24` | `172.16.10.1` |
-| Edge–Core transit | — | `10.254.254.0/30` | Edge `.1`, Core `.2` |
-| Edge–ISP serial | — | `192.0.2.0/30` | Edge `.2`, ISP `.1` |
-| Simulated Internet loopback | — | `203.0.113.0/24` | ISP `203.0.113.1` |
-
-### DMZ servers
-
-| Service | Address |
-|---|---|
-| Web | `172.16.10.10` |
-| DNS | `172.16.10.20` |
-| FTP | `172.16.10.30` |
-
 Each department has one lab network with a PC, printer, wireless AP, and departmental DHCP server.
+
+![Image](/docs/Architecture.png)
 
 ## Security and networking
 
