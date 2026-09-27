@@ -2,7 +2,7 @@
 
 ## Architecture
 
-[Image](./Architecture.png)
+![Image](./Architecture.png)
 
 The network uses a core-and-access design:
 
